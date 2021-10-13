@@ -1,0 +1,6 @@
+[temp]2021/07/26 - 10:07:44.004	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/26 - 14:41:43.467	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/26 - 15:02:16.273	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/26 - 16:29:24.169	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/26 - 16:41:10.168	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "invalid connection"}
+[temp]2021/07/26 - 16:43:40.871	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success

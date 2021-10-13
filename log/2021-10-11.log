@@ -1,0 +1,24 @@
+[temp]2021/10/11 - 09:56:58.386	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 09:57:52.427	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 09:59:38.742	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 10:00:31.464	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 10:09:34.024	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 10:34:45.601	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "invalid connection"}
+[temp]2021/10/11 - 13:40:30.608	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 13:56:46.139	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 13:58:34.833	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 14:23:35.721	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 15:16:06.902	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "invalid connection"}
+[temp]2021/10/11 - 15:25:27.534	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 16:18:54.207	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "invalid connection"}
+[temp]2021/10/11 - 19:00:22.267	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 19:20:23.686	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:20:34.177	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:20:38.382	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:28:09.525	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:28:10.704	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:30:47.124	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/11 - 19:31:48.099	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:35:57.688	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 19:38:24.989	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/10/11 - 20:02:49.678	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}

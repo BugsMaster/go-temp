@@ -1,0 +1,3 @@
+[temp]2021/07/28 - 19:11:16.225	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/28 - 19:12:30.711	[31merror[0m	E:/go-temp/src/api/sys_user.go:122	注册失败!	{"err": "用户名已注册"}
+[temp]2021/07/28 - 19:16:48.582	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success

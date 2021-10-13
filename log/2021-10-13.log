@@ -1,0 +1,12 @@
+[temp]2021/10/13 - 10:39:41.697	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/13 - 10:44:23.882	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "record not found"}
+[temp]2021/10/13 - 10:44:35.991	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "record not found"}
+[temp]2021/10/13 - 10:45:15.729	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "SysAuthorities: unsupported relations for schema SysUser"}
+[temp]2021/10/13 - 10:45:47.719	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "SysAuthorities: unsupported relations for schema SysUser"}
+[temp]2021/10/13 - 10:46:24.061	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/13 - 10:46:38.547	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "SysAuthorities: unsupported relations for schema SysUser"}
+[temp]2021/10/13 - 10:46:52.511	[31merror[0m	E:/go-temp/src/api/sys_user.go:31	登陆失败! 用户名不存在或者密码错误!	{"err": "SysAuthorities: unsupported relations for schema SysUser"}
+[temp]2021/10/13 - 10:47:34.836	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/13 - 11:22:00.345	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/13 - 15:08:36.058	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/13 - 15:11:53.970	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success

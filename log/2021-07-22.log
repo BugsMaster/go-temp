@@ -1,0 +1,118 @@
+[temp]2021/07/22 - 10:44:10.549	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 10:44:10.604	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 11:10:40.389	[31merror[0m	E:/go-temp/src/initialize/gorm.go:81	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45004: no such host"}
+[temp]2021/07/22 - 11:12:45.272	[31merror[0m	E:/go-temp/src/initialize/gorm.go:81	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45004: no such host"}
+[temp]2021/07/22 - 11:21:49.230	[31merror[0m	E:/go-temp/src/initialize/gorm.go:81	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45004: no such host"}
+[temp]2021/07/22 - 11:25:36.041	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45004: no such host"}
+[temp]2021/07/22 - 11:31:06.173	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "unknown time zone Localhost"}
+[temp]2021/07/22 - 11:31:23.913	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "unknown time zone localhost"}
+[temp]2021/07/22 - 11:32:54.874	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45004: no such host"}
+[temp]2021/07/22 - 11:36:08.241	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45004: no such host"}
+[temp]2021/07/22 - 13:54:03.712	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 13:58:41.773	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:13:48.534	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:14:59.894	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:17:46.961	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:18:05.572	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:18:20.718	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:20:42.590	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 14:22:02.904	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 14:22:02.909	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 14:44:42.736	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 15:00:28.856	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial http: unknown network http"}
+[temp]2021/07/22 - 15:04:50.867	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 15:12:51.904	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 15:22:53.933	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 15:23:23.105	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:23:23.109	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 15:26:17.863	[34minfo[0m	E:/go-temp/src/initialize/router.go:22	register swagger handler
+[temp]2021/07/22 - 15:26:17.868	[34minfo[0m	E:/go-temp/src/initialize/router.go:36	router register success
+[temp]2021/07/22 - 15:29:51.494	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:29:51.501	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 15:31:38.025	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:31:38.044	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 15:32:12.285	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:32:12.290	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 15:32:31.167	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:32:31.171	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 15:39:12.321	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:39:12.325	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 15:51:28.101	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 15:51:28.106	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:02:55.878	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:02:55.883	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:06:12.603	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:06:12.607	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:15:00.167	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:15:00.171	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:15:37.788	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:15:37.792	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:16:31.387	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:16:31.392	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:17:19.222	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:17:19.225	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:21:44.088	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:21:44.093	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:24:51.723	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:24:51.727	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:25:28.282	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:25:28.287	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:30:41.347	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:30:41.351	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:33:26.229	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:33:26.234	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:36:43.127	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:36:43.131	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:39:41.343	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 16:40:38.849	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:40:38.853	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:41:46.167	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:41:46.172	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:47:49.626	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 16:47:49.630	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 16:48:58.975	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 16:50:20.076	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 16:57:51.611	[31merror[0m	E:/go-temp/src/initialize/gorm.go:83	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 17:01:59.963	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:01:59.967	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:03:22.277	[31merror[0m	E:/go-temp/src/initialize/gorm.go:87	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.7:40003: no such host"}
+[temp]2021/07/22 - 17:05:27.823	[31merror[0m	E:/go-temp/src/initialize/gorm.go:87	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 17:06:04.652	[31merror[0m	E:/go-temp/src/initialize/gorm.go:87	MySQL启动异常	{"err": "dial tcp: lookup http://10.4.82.20:45003: no such host"}
+[temp]2021/07/22 - 17:09:18.938	[34minfo[0m	E:/go-temp/src/initialize/gorm.go:60	register table success
+[temp]2021/07/22 - 17:09:18.942	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:09:18.942	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:09:34.158	[34minfo[0m	E:/go-temp/src/initialize/gorm.go:60	register table success
+[temp]2021/07/22 - 17:09:34.163	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:09:34.163	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:10:17.332	[34minfo[0m	E:/go-temp/src/initialize/gorm.go:60	register table success
+[temp]2021/07/22 - 17:10:17.336	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:10:17.336	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:11:24.832	[34minfo[0m	E:/go-temp/src/initialize/gorm.go:60	register table success
+[temp]2021/07/22 - 17:11:24.837	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:11:24.837	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:13:43.502	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:13:43.506	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:15:36.862	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:15:36.866	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:17:06.393	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:17:06.397	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:17:44.542	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:17:44.547	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:18:50.879	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:18:50.883	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:19:55.669	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:19:55.673	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:20:47.643	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:20:47.647	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:23:41.437	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:23:41.441	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:24:14.038	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:24:14.042	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:25:31.355	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:25:31.359	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:26:58.106	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:26:58.111	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:28:19.918	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:28:19.922	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/07/22 - 17:48:43.553	[34minfo[0m	E:/go-temp/src/initialize/router.go:20	register swagger handler
+[temp]2021/07/22 - 17:48:43.556	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
