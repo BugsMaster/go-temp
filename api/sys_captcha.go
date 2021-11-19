@@ -7,7 +7,6 @@ import (
 	"temp/global"
 	"temp/model/response"
 )
-
 var store = base64Captcha.DefaultMemStore
 
 // @Tags Base

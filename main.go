@@ -66,12 +66,13 @@ func main() {
 		db, _ := global.GVA_DB.DB()
 		defer db.Close()
 	}
-	go GinRouterStart()
+	go Socket()
+	GinRouterStart()
+}
+func Socket(){
 	http.HandleFunc("/ping",ping)
 	http.ListenAndServe("0.0.0.0:10104",nil)
-	time.Sleep(5*time.Second)
 }
-
 func GinRouterStart() {
 	gin.SetMode(gin.ReleaseMode)
 	router:=initialize.Routers()
@@ -93,10 +94,7 @@ func GinRouterStart() {
 //if err := router.Run(":10104"); err != nil {
 //	fmt.Println("startup service failed, err:%v\n", err)
 //}
-//func (g *gserver) AddTask(ctx gcontext.Context, task *protos.AddTaskRequest) (*protos.AddTaskResponse, error) {
-//
-//	return a,error
-//}
+
 //runtime.Goexit()
 //runtime.Gosched()
 //neTicker:=time.NewTicker(time.Second)

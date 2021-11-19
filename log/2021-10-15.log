@@ -1,0 +1,6 @@
+[temp]2021/10/15 - 10:03:00.469	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/15 - 16:15:47.146	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/15 - 16:53:29.238	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/15 - 17:00:02.100	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/15 - 17:17:08.437	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
+[temp]2021/10/15 - 17:48:30.724	[31merror[0m	E:/go-temp/src/api/sys_user.go:181	获取失败!	{"err": "invalid connection"}

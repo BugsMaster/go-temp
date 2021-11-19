@@ -6,6 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis"
 	"go.uber.org/zap"
+	"strconv"
 	"temp/global"
 	"temp/lib/utils"
 	"temp/middleware"
@@ -35,8 +36,8 @@ func Login(c *gin.Context) {
 			global.GVA_LOG.Error("登陆失败! 用户名不存在或者密码错误!", zap.Any("err", err))
 			response.FailWithMessage("用户名不存在或者密码错误", c)
 		} else {
-			response.OkWithDetailed(*user,"登录成功",c)
-			//tokenNext(c, *user)
+			//response.OkWithDetailed(*user,"登录成功",c)
+			tokenNext(c, *user)
 		}
 	} else {
 		response.FailWithMessage("验证码错误", c)
@@ -74,6 +75,7 @@ func tokenNext(c *gin.Context, user model.SysUser) {
 		return
 	}
 	if err, jwtStr := service.GetRedisJWT(user.Username); err == redis.Nil {
+		// redis么有jwt签名
 		if err := service.SetRedisJWT(token, user.Username); err != nil {
 			global.GVA_LOG.Error("设置登录状态失败!", zap.Any("err", err))
 			response.FailWithMessage("设置登录状态失败", c)
@@ -114,6 +116,7 @@ func tokenNext(c *gin.Context, user model.SysUser) {
 func Register(c *gin.Context) {
 	var r request.Register
 	_ = c.ShouldBindJSON(&r)
+
 
 	fmt.Println(r)
 	if err := utils.Verify(r, utils.RegisterVerify); err != nil {
@@ -162,8 +165,15 @@ func ChangePassword(c *gin.Context) {
 // @Success 200 {string} string "{"success":true,"data":{},"msg":"获取成功"}"
 // @Router /user/getUserList [post]
 func GetUserList(c *gin.Context) {
-	var pageInfo request.PageInfo
-	_ = c.ShouldBindJSON(&pageInfo)
+	page_query := c.Query("page")
+	pageSize_query := c.Request.URL.Query().Get("pageSize")
+	var page , _= strconv.Atoi(page_query)
+	var pageSize, _ = strconv.Atoi(pageSize_query)
+	var pageInfo = request.PageInfo{
+		page,
+		pageSize,
+	}
+	//_ = c.ShouldBindJSON(&pageInfo)
 	if err := utils.Verify(pageInfo, utils.PageInfoVerify); err != nil {
 		response.FailWithMessage(err.Error(), c)
 		return

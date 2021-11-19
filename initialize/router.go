@@ -22,7 +22,8 @@ func Routers() *gin.Engine {
 	PublicGroup := Router.Group("")
 	{
 		routers.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权
-		//routers.InitInitRouter(PublicGroup) // 自动初始化相关
+		routers.InitTestRouter(PublicGroup) // 自动初始化相关
+		routers.InitMockDataRouter(PublicGroup) // mockdata相关
 	}
 	/*PrivateGroup := Router.Group("")
 	PrivateGroup.Use(middleware.JWTAuth()).Use(middleware.CasbinHandler())
