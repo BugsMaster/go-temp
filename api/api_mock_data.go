@@ -21,7 +21,6 @@ func GETChartColor(c *gin.Context) {
 	colorList := []string{}
 
 	for _,v := range colorListData {
-		fmt.Println(v.ColorList)
 		colorList=append(colorList,v.ColorList)
 	}
 	response.OkWithDetailed(model.ChartColorList{ColorList: colorList}, "", c)

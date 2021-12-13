@@ -15,4 +15,5 @@ var (
 	OldAuthorityVerify     = Rules{"OldAuthorityId": {NotEmpty()}}
 	ChangePasswordVerify   = Rules{"Username": {NotEmpty()}, "Password": {NotEmpty()}, "NewPassword": {NotEmpty()}}
 	SetUserAuthorityVerify = Rules{"UUID": {NotEmpty()}, "AuthorityId": {NotEmpty()}}
+	ChartInfoVerify  = Rules{"ID": {NotEmpty()}, "Name": {NotEmpty()},"FileUrl": {NotEmpty()}}
 )

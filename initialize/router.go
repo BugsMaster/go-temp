@@ -23,6 +23,7 @@ func Routers() *gin.Engine {
 	{
 		routers.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权
 		routers.InitTestRouter(PublicGroup) // 自动初始化相关
+		routers.InitUIRouter(PublicGroup) // mockdata相关
 		routers.InitMockDataRouter(PublicGroup) // mockdata相关
 	}
 	/*PrivateGroup := Router.Group("")

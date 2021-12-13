@@ -6,7 +6,7 @@ import (
 )
 
 func InitMockDataRouter(Router *gin.RouterGroup) (R gin.IRoutes) {
-	BaseRouter := Router.Group("")
+	BaseRouter := Router.Group("mock")
 	{
 		BaseRouter.GET("color/chart", api.GETChartColor)
 		BaseRouter.POST("color/chart", api.POSTChartColor)

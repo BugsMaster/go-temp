@@ -71,29 +71,16 @@ func main() {
 }
 func Socket(){
 	http.HandleFunc("/ping",ping)
-	http.ListenAndServe("0.0.0.0:10104",nil)
+	http.ListenAndServe(global.GVA_CONFIG.ServerInfo.SocketIp,nil)
 }
 func GinRouterStart() {
 	gin.SetMode(gin.ReleaseMode)
 	router:=initialize.Routers()
 	//开启服务
-	if err := router.Run(":10103"); err != nil {
+	if err := router.Run(global.GVA_CONFIG.ServerInfo.Port); err != nil {
 		fmt.Println("startup service failed, err:%v\n", err)
 	}
 }
-//type Msg struct {
-//	UserId    string   `json:"userId"`
-//	Text      string   `json:"text"`
-//	State     string   `json:"state"`
-//	Namespace string   `json:"namespace"`
-//	Rooms     []string `json:"rooms"`
-//}
-//gin.SetMode(gin.ReleaseMode)
-//router := gin.Default()
-//router.GET("/ping", ping)
-//if err := router.Run(":10104"); err != nil {
-//	fmt.Println("startup service failed, err:%v\n", err)
-//}
 
 //runtime.Goexit()
 //runtime.Gosched()
@@ -106,6 +93,3 @@ func GinRouterStart() {
 //	for i:=0;i<9;i++{
 //	}
 //}()
-//type User struct {
-//	//gorm.Model
-//}

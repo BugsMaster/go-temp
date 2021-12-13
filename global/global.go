@@ -6,6 +6,7 @@ import (
 	"gorm.io/gorm"
 	"temp/config"
 	"github.com/go-redis/redis"
+	"github.com/songzhibin97/gkit/cache/local_cache"
 )
 
 var (
@@ -16,4 +17,5 @@ var (
 	//GVA_LOG    *oplogging.Logger
 	GVA_LOG *zap.Logger
 	//GVA_Timer timer.Timer = timer.NewTimerTask()
+	BlackCache local_cache.Cache
 )

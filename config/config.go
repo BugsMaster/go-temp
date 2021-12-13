@@ -1,7 +1,11 @@
 package config
-
+type ServerInfo struct {
+	Ip 			string `mapstructure:"ip" json:"ip" yaml:"ip"`
+	Port 		string `mapstructure:"port" json:"port" yaml:"port"`
+	SocketIp 	string `mapstructure:"socket-ip" json:"socketIp" yaml:"socket-ip"`
+}
 type Server struct {
-
+	ServerInfo ServerInfo `mapstructure:"server-info" json:"serverInfo" yaml:"server-info"`
 	Local      Local      `mapstructure:"local" json:"local" yaml:"local"`
 	Captcha Captcha `mapstructure:"captcha" json:"captcha" yaml:"captcha"`
 	JWT     JWT     `mapstructure:"jwt" json:"jwt" yaml:"jwt"`
