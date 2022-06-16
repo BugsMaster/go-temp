@@ -11,17 +11,18 @@ import (
 	"temp/lib"
 	"time"
 )
+
 var upGrader = websocket.Upgrader{
-	CheckOrigin: func (r *http.Request) bool {
+	CheckOrigin: func(r *http.Request) bool {
 		return true
 	},
 }
 
 //webSocket请求ping 返回pong
-func ping(w http.ResponseWriter , r *http.Request) {
-	neTicker:=time.NewTicker(time.Second*3)
+func ping(w http.ResponseWriter, r *http.Request) {
+	neTicker := time.NewTicker(time.Second * 3)
 	//升级get请求为webSocket协议
-	ws, err := upGrader.Upgrade(w,r,nil)
+	ws, err := upGrader.Upgrade(w, r, nil)
 	if err != nil {
 		return
 	}
@@ -32,7 +33,7 @@ func ping(w http.ResponseWriter , r *http.Request) {
 	})
 	go func() {
 		for {
-			nowTime:= <-neTicker.C
+			nowTime := <-neTicker.C
 			ws.WriteMessage(websocket.TextMessage, []byte(time.Unix(nowTime.Unix(), 0).Format("2006-01-02 15:04:05")+"  终于下班了"))
 		}
 	}()
@@ -56,8 +57,8 @@ func ping(w http.ResponseWriter , r *http.Request) {
 }
 
 func main() {
-	global.GVA_VP = lib.Viper() // 初始化Viper
-	global.GVA_LOG = lib.Zap()//初始化zap
+	global.GVA_VP = lib.Viper()       // 初始化Viper
+	global.GVA_LOG = lib.Zap()        //初始化zap
 	global.GVA_DB = initialize.Gorm() // gorm连接数据库
 	//initialize.Timer()
 	if global.GVA_DB != nil {
@@ -69,27 +70,15 @@ func main() {
 	go Socket()
 	GinRouterStart()
 }
-func Socket(){
-	http.HandleFunc("/ping",ping)
-	http.ListenAndServe(global.GVA_CONFIG.ServerInfo.SocketIp,nil)
+func Socket() {
+	http.HandleFunc("/ping", ping)
+	http.ListenAndServe(global.GVA_CONFIG.ServerInfo.SocketIp, nil)
 }
 func GinRouterStart() {
 	gin.SetMode(gin.ReleaseMode)
-	router:=initialize.Routers()
+	router := initialize.Routers()
 	//开启服务
 	if err := router.Run(global.GVA_CONFIG.ServerInfo.Port); err != nil {
 		fmt.Println("startup service failed, err:%v\n", err)
 	}
 }
-
-//runtime.Goexit()
-//runtime.Gosched()
-//neTicker:=time.NewTicker(time.Second)
-//go func() {
-//	//for {
-//		nowTime:= <-neTicker.C
-//		fmt.Println(nowTime)
-//	//}
-//	for i:=0;i<9;i++{
-//	}
-//}()

@@ -1,32 +1,33 @@
 package config
+
 type ServerInfo struct {
-	Ip 			string `mapstructure:"ip" json:"ip" yaml:"ip"`
-	Port 		string `mapstructure:"port" json:"port" yaml:"port"`
-	SocketIp 	string `mapstructure:"socket-ip" json:"socketIp" yaml:"socket-ip"`
+	Ip       string `mapstructure:"ip" json:"ip" yaml:"ip"`
+	Port     string `mapstructure:"port" json:"port" yaml:"port"`
+	SocketIp string `mapstructure:"socket-ip" json:"socketIp" yaml:"socket-ip"`
 }
 type Server struct {
 	ServerInfo ServerInfo `mapstructure:"server-info" json:"serverInfo" yaml:"server-info"`
 	Local      Local      `mapstructure:"local" json:"local" yaml:"local"`
-	Captcha Captcha `mapstructure:"captcha" json:"captcha" yaml:"captcha"`
-	JWT     JWT     `mapstructure:"jwt" json:"jwt" yaml:"jwt"`
-	Zap     Zap     `mapstructure:"zap" json:"zap" yaml:"zap"`
-	System  System  `mapstructure:"system" json:"system" yaml:"system"`
+	Captcha    Captcha    `mapstructure:"captcha" json:"captcha" yaml:"captcha"`
+	JWT        JWT        `mapstructure:"jwt" json:"jwt" yaml:"jwt"`
+	Zap        Zap        `mapstructure:"zap" json:"zap" yaml:"zap"`
+	System     System     `mapstructure:"system" json:"system" yaml:"system"`
 	// auto
 	AutoCode Autocode `mapstructure:"autoCode" json:"autoCode" yaml:"autoCode"`
 	// gorm
 	Mysql Mysql `mapstructure:"mysql" json:"mysql" yaml:"mysql"`
 	/*	Redis   Redis   `mapstructure:"redis" json:"redis" yaml:"rediss"`
-	Email   Email   `mapstructure:"email" json:"email" yaml:"email"`
-	Casbsin  Casbin  `mapstructure:"casbin" json:"casbin" yaml:"casbin"`
+		Email   Email   `mapstructure:"email" json:"email" yaml:"email"`
+		Casbsin  Casbin  `mapstructure:"casbin" json:"casbin" yaml:"casbin"`
 
 
 
-	// oss
-	Qiniu      Qiniu      `mapstructure:"qiniu" json:"qiniu" yaml:"qiniu"`
-	AliyunOSS  AliyunOSS  `mapstructure:"aliyun-oss" json:"aliyunOSS" yaml:"aliyun-oss"`
-	TencentCOS TencentCOS `mapstructure:"tencent-cos" json:"tencentCOS" yaml:"tencent-cos"`
-	Excel      Excel      `mapstructure:"excel" json:"excel" yaml:"excel"`
-	Timer      Timer      `mapstructure:"timer" json:"timer" yaml:"timer"`*/
+		// oss
+		Qiniu      Qiniu      `mapstructure:"qiniu" json:"qiniu" yaml:"qiniu"`
+		AliyunOSS  AliyunOSS  `mapstructure:"aliyun-oss" json:"aliyunOSS" yaml:"aliyun-oss"`
+		TencentCOS TencentCOS `mapstructure:"tencent-cos" json:"tencentCOS" yaml:"tencent-cos"`
+		Excel      Excel      `mapstructure:"excel" json:"excel" yaml:"excel"`
+		Timer      Timer      `mapstructure:"timer" json:"timer" yaml:"timer"`*/
 }
 
 type Local struct {
@@ -38,11 +39,11 @@ type Captcha struct {
 	ImgHeight int `mapstructure:"img-height" json:"imgHeight" yaml:"img-height"` // 验证码高度
 }
 
-type JWT struct {
-	SigningKey  string `mapstructure:"signing-key" json:"signingKey" yaml:"signing-key"`    // jwt签名
-	ExpiresTime int64  `mapstructure:"expires-time" json:"expiresTime" yaml:"expires-time"` // 过期时间
-	BufferTime  int64  `mapstructure:"buffer-time" json:"bufferTime" yaml:"buffer-time"`    // 缓冲时间
-}
+//type JWT struct {
+//	SigningKey  string `mapstructure:"signing-key" json:"signingKey" yaml:"signing-key"`    // jwt签名
+//	ExpiresTime int64  `mapstructure:"expires-time" json:"expiresTime" yaml:"expires-time"` // 过期时间
+//	BufferTime  int64  `mapstructure:"buffer-time" json:"bufferTime" yaml:"buffer-time"`    // 缓冲时间
+//}
 
 type Mysql struct {
 	Path         string `mapstructure:"path" json:"path" yaml:"path"`                             // 服务器地址:端口
