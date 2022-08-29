@@ -58,11 +58,11 @@ captcha:
 # mysql connect configuration
 # 未初始化之前请勿手动修改数据库信息！！！如果一定要手动初始化请看（https://www.temp.com/docs/first）
 mysql:
-  path: '10.4.82.20:45003'
+  path: 'localhost:3306'
   config: 'charset=utf8mb4&parseTime=True&loc=Local'
   db-name: 'visual_scheme'
   username: 'root'
-  password: 'nuctech123!'
+  password: 'root123'
   max-idle-conns: 10
   max-open-conns: 100
   log-mode: true

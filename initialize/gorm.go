@@ -41,7 +41,7 @@ func MysqlTables(db *gorm.DB) {
 		//model.SysApi{},
 		//model.SysBaseMenu{},
 		//model.SysBaseMenuParameter{},
-		model.JwtBlacklist{},
+		//model.JwtBlacklist{},
 		//model.SysDictionary{},
 		//model.SysDictionaryDetail{},
 		//model.ExaFileUploadAndDownload{},

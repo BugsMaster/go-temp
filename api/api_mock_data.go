@@ -72,6 +72,14 @@ func POSTChartColor(c *gin.Context)  {
 		}
 	}
 }
-func CommonColor(c *gin.Context)  {
-
+func POSTCommonColor(c *gin.Context)  {
+	//data, _ := global.GVA_REDIS.Get("aaa").Result()
+	//response.OkWithMessage("更新成功" + data, c)
+	err := global.GVA_REDIS.Set("aaa","第一次存，好紧张",0).Err()
+	if err != nil {
+		response.FailWithMessage("更新失败", c)
+	} else {
+		data, _ := global.GVA_REDIS.Get("aaa").Result()
+		response.OkWithMessage("更新成功" + data, c)
+	}
 }

@@ -10,7 +10,7 @@ func InitMockDataRouter(Router *gin.RouterGroup) (R gin.IRoutes) {
 	{
 		BaseRouter.GET("color/chart", api.GETChartColor)
 		BaseRouter.POST("color/chart", api.POSTChartColor)
-		BaseRouter.POST("color/common", api.CommonColor)
+		BaseRouter.POST("color/common", api.POSTCommonColor)
 	}
 	return BaseRouter
 }

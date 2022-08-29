@@ -16,7 +16,8 @@ type Server struct {
 	AutoCode Autocode `mapstructure:"autoCode" json:"autoCode" yaml:"autoCode"`
 	// gorm
 	Mysql Mysql `mapstructure:"mysql" json:"mysql" yaml:"mysql"`
-	/*	Redis   Redis   `mapstructure:"redis" json:"redis" yaml:"rediss"`
+	Redis Redis `mapstructure:"redis" json:"redis" yaml:"redis"`
+	/*
 		Email   Email   `mapstructure:"email" json:"email" yaml:"email"`
 		Casbsin  Casbin  `mapstructure:"casbin" json:"casbin" yaml:"casbin"`
 
@@ -28,6 +29,12 @@ type Server struct {
 		TencentCOS TencentCOS `mapstructure:"tencent-cos" json:"tencentCOS" yaml:"tencent-cos"`
 		Excel      Excel      `mapstructure:"excel" json:"excel" yaml:"excel"`
 		Timer      Timer      `mapstructure:"timer" json:"timer" yaml:"timer"`*/
+}
+
+type Redis struct {
+	DB 			int `mapstructure:"db" json:"db" yaml:"db"`
+	Addr 		string `mapstructure:"addr" json:"addr" yaml:"addr"`
+	Password 	string `mapstructure:"password" json:"password" yaml:"password"`
 }
 
 type Local struct {
