@@ -1,7 +1,9 @@
 package api
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/gocolly/colly"
 	"temp/model"
 	"temp/model/response"
 )
@@ -38,4 +40,25 @@ func Weeklist(c *gin.Context) {
 			{Date:"周日",Value: 7},
 		},
 	},"获取到了大批数据",c)
+}
+func Spider(c *gin.Context) {
+	myColly := colly.NewCollector()
+	// Visit only domains: hackerspaces.org, wiki.hackerspaces.org
+	myColly.AllowedDomains = []string{"hackerspaces.org", "wiki.hackerspaces.org"}
+	// On every a element which has href attribute call callback
+	myColly.OnHTML("a[href]", func(e *colly.HTMLElement) {
+		link := e.Attr("href")
+		// Print link
+		fmt.Printf("Link found: %q -> %s\n", e.Text, link)
+		// Visit link found on page
+		// Only those links are visited which are in AllowedDomains
+		myColly.Visit(e.Request.AbsoluteURL(link))
+		response.OkWithMessage(e.Text, c)
+	})
+	// Before making a request print "Visiting ..."
+	myColly.OnRequest(func(r *colly.Request) {
+		fmt.Println("Visiting", r.URL.String())
+	})
+	// Start scraping on https://hackerspaces.org
+	myColly.Visit("https://hackerspaces.org/")
 }

@@ -20,6 +20,7 @@ func InitTestRouter(Router *gin.RouterGroup) (R gin.IRoutes) {
 	{
 		TestRouter.GET("weeklist", api.Weeklist)
 		TestRouter.GET("userlist", api.GetUserList)
+		TestRouter.GET("spider", api.Spider)
 	}
 	return TestRouter
 }

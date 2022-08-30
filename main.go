@@ -19,10 +19,10 @@ var upGrader = websocket.Upgrader{
 }
 
 //webSocket请求ping 返回pong
-func ping(w http.ResponseWriter, r *http.Request) {
-	neTicker := time.NewTicker(time.Second * 3)
+func ping(w http.ResponseWriter , r *http.Request) {
+	neTicker:=time.NewTicker(time.Second*3)
 	//升级get请求为webSocket协议
-	ws, err := upGrader.Upgrade(w, r, nil)
+	ws, err := upGrader.Upgrade(w,r,nil)
 	if err != nil {
 		return
 	}
@@ -33,7 +33,7 @@ func ping(w http.ResponseWriter, r *http.Request) {
 	})
 	go func() {
 		for {
-			nowTime := <-neTicker.C
+			nowTime:= <-neTicker.C
 			ws.WriteMessage(websocket.TextMessage, []byte(time.Unix(nowTime.Unix(), 0).Format("2006-01-02 15:04:05")+"  终于下班了"))
 		}
 	}()
@@ -61,7 +61,7 @@ func main() {
 	global.GVA_LOG = lib.Zap()        //初始化zap
 	global.GVA_DB = initialize.Gorm() // gorm连接数据库
 	//initialize.Timer()
-	initialize.Redis()
+	//initialize.Redis()
 	if global.GVA_DB != nil {
 		//initialize.MysqlTables(global.GVA_DB) // 初始化表
 		// 程序结束前关闭数据库链接
@@ -73,7 +73,11 @@ func main() {
 }
 func Socket() {
 	http.HandleFunc("/ping", ping)
-	http.ListenAndServe(global.GVA_CONFIG.ServerInfo.SocketIp, nil)
+	// 设置监听的端口
+	err := http.ListenAndServe(":10104", nil)
+	if err != nil {
+		fmt.Print(err)
+	}
 }
 func GinRouterStart() {
 	gin.SetMode(gin.ReleaseMode)
@@ -83,3 +87,5 @@ func GinRouterStart() {
 		fmt.Println("startup service failed, err:%v\n", err)
 	}
 }
+
+
