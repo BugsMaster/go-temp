@@ -1,2 +1,0 @@
-[temp]2021/10/29 - 10:08:31.047	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
-[temp]2021/10/29 - 10:46:44.981	[31merror[0m	E:/go-temp/src/api/sys_user.go:181	获取失败!	{"err": "invalid connection"}

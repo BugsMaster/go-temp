@@ -1,7 +1,0 @@
-[temp]2021/10/09 - 11:15:06.472	[31merror[0m	E:/go-temp/src/initialize/gorm.go:87	MySQL启动异常	{"err": "dial tcp 10.4.82.20:45003: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
-[temp]2021/10/09 - 11:17:04.117	[31merror[0m	E:/go-temp/src/initialize/gorm.go:87	MySQL启动异常	{"err": "dial tcp 10.4.82.20:45003: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
-[temp]2021/10/09 - 13:41:44.726	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
-[temp]2021/10/09 - 16:02:17.008	[31merror[0m	E:/go-temp/src/initialize/gorm.go:87	MySQL启动异常	{"err": "driver: bad connection"}
-[temp]2021/10/09 - 16:46:51.815	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
-[temp]2021/10/09 - 17:08:35.107	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success
-[temp]2021/10/09 - 18:14:04.563	[34minfo[0m	E:/go-temp/src/initialize/router.go:34	router register success

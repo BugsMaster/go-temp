@@ -2,7 +2,7 @@
 server-info:
   ip: 'http://localhost:10103'
   port: ':10103'
-  socket-ip: 'http://localhost:10104'
+  socket-ip: ':10104'
 # jwt configuration
 jwt:
   signing-key: 'qmPlus'

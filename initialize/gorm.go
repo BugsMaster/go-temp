@@ -38,6 +38,8 @@ func MysqlTables(db *gorm.DB) {
 		model.SysUser{},
 		model.SysAuthority{},
 		model.SysChartcolor{},
+		model.LinksInfo{},
+		model.ETFHistoryData{},
 		//model.SysApi{},
 		//model.SysBaseMenu{},
 		//model.SysBaseMenuParameter{},

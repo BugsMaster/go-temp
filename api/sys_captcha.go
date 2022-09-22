@@ -27,7 +27,7 @@ func Captcha(c *gin.Context) {
 	} else {
 		response.OkWithDetailed(response.SysCaptchaResponse{
 			CaptchaId: id,
-			PicPath:   b64s,
+			PicPath: b64s,
 		}, "还好拿到了验证码", c)
 	}
 }
