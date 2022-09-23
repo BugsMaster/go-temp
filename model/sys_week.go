@@ -29,7 +29,7 @@ type ETFHistoryList struct {
 	} `json:"data"`
 }
 type ETFHistoryData struct {
-	MinTime         int64       `json:"min_time" gorm:"min_time"`
+	MinTime         int64       `json:"min_time" gorm:"min_time;primarykey"`
 	OpenPx          float64   `json:"open_px" gorm:"open_px"`
 	HighPx          float64   `json:"high_px" gorm:"high_px"`
 	LowPx           float64   `json:"low_px" gorm:"low_px"`
