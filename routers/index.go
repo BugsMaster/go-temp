@@ -25,6 +25,8 @@ func InitTestRouter(Router *gin.RouterGroup) (R gin.IRoutes) {
 		TestRouter.GET("quotedata/history", api.GETQuoteHistoryData)
 		TestRouter.GET("quotedata/today", api.GETQuoteTodayData)
 		TestRouter.GET("quotedata/datalist", api.GETQuoteDataList)
+		TestRouter.GET("quotedata/history-test", api.GETQuoteHistoryTest)
+		TestRouter.GET("quotedata/real-time", api.GETQuoteRealTime)
 	}
 	return TestRouter
 }

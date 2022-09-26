@@ -41,3 +41,27 @@ type ETFHistoryData struct {
 	Settlement      float64   `json:"settlement" gorm:"settlement"`
 	Amount           int       `json:"amount" gorm:"amount"`
 }
+//type ETFRealTimeDataInfo struct {
+//	hq_type_code,
+//	trade_status,
+//	prod_name,
+//	prod_code,
+//	data_timestamp,
+//	last_px,
+//	px_change,
+//	preclose_px,
+//	open_px,
+//	high_px,
+//	low_px,
+//	amplitude,
+//	up_px,
+//	down_px
+//}
+type ETFRealTimeData struct {
+	Data struct {
+		Snapshot struct {
+			Fields     []string      `json:"fields"`
+			Five10310SS []interface{} `json:"510310.SS"`
+		} `json:"snapshot"`
+	} `json:"data"`
+}
