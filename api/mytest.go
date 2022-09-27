@@ -253,6 +253,7 @@ func GETQuoteDataList(c *gin.Context) {
 func GETQuoteHistoryTest(c *gin.Context) {
 	response.FailWithMessage("获取失败", c)
 }
+
 func GETQuoteRealTime(c *gin.Context) {
 	neTicker := time.NewTicker(time.Second * 2)
 	defer neTicker.Stop() // 需要关闭
@@ -272,6 +273,8 @@ func GETQuoteRealTime(c *gin.Context) {
 		}
 		fmt.Println("当前时间为:", nowTime.Format("2006-01-02 15:04:05"),"\n", "data = ", actress.Data.Snapshot.Five10310SS)
 		fmt.Println("Fields = ", actress.Data.Snapshot.Fields)
+
+		fmt.Println("Fields = ", int64(actress.Data.Snapshot.Five10310SS[0].(float64)))
 		fmt.Println("Data = ", actress.Data.Snapshot.Five10310SS)
 	}
 }
